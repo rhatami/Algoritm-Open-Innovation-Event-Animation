@@ -30,9 +30,8 @@
 | تجربه | اولین پروژه‌ی جدی انیمیشن با هوش مصنوعی |
 | مدت انیمیشن | حدود ۲ دقیقه (۱۶ صحنه) |
 | زمان تولید | حدود ۵ ساعت |
-| بازه‌ی تولید | ۲۱:۳۰ تا ۰۲:۳۰ |
 | هزینه‌ی کل | حدود ۱۷ دلار |
-| دسترسی به مدل‌ها | Matis |
+| دسترسی به مدل‌ها | Some AI Router |
 | تدوین | Shotcut |
 
 ---
@@ -71,7 +70,7 @@ Shotcut  →  Final Animation
 | تولید تصویر | GPT Image 2 | تولید تصویر هر صحنه (Keyframe) |
 | تصویر به ویدیو | Kling AI 2.5 Turbo Pro | ساخت انیمیشن |
 | تدوین | Shotcut | تدوین نهایی |
-| دسترسی به مدل‌ها | Matis | دسترسی یکپارچه به چند مدل |
+| دسترسی به مدل‌ها | Some AI Router | دسترسی یکپارچه به چند مدل |
 
 ---
 
@@ -111,8 +110,8 @@ Shotcut  →  Final Animation
 
 | فایل | توضیح |
 |---|---|
-| [`style-prompt.md`](02-music-generation/01-claude-prompt.md) | گفت‌وگو با Claude برای پیشنهاد Style Prompt |
-| [`suno-prompt.md`](02-music-generation/02-suno-prompt.md) | شعر نهایی و Style Prompt واردشده در Suno |
+| [`01-claude-prompt.md`](02-music-generation/01-claude-prompt.md) | گفت‌وگو با Claude برای پیشنهاد Style Prompt |
+| [`02-suno-prompt.md`](02-music-generation/02-suno-prompt.md) | شعر نهایی و Style Prompt واردشده در Suno |
 
 تنظیمات: **Suno V4.5 ‏· Custom Mode ‏· 105 BPM**. موسیقی نهایی در [`06-final-assets/01- music/`](06-final-assets/01-music/) قرار دارد.
 
@@ -125,7 +124,7 @@ Shotcut  →  Final Animation
 
 ### ۴. تولید تصویر — [`04-image-generation/`](04-image-generation/)
 
-برای هر صحنه یک پرامپت برای **GPT Image 2** نوشته شد. در همه‌ی پرامپت‌ها توضیح شخصیت، مکان و سبک تکرار شده تا پسر، خانه و درخت در ۱۶ تصویر یکدست بمانند. در صحنه‌های ۷ و ۸ لوگوی آکادمی بانکداری هوشمند هم به‌عنوان تصویر مرجع به مدل داده شد.
+برای هر صحنه یک پرامپت برای **GPT Image 2** نوشته شد. در همه‌ی پرامپت‌ها توضیح شخصیت، مکان و سبک تکرار شده تا پسر، خانه و درخت در ۱۶ تصویر یکدست بمانند. در صحنه‌های ۷ و ۸ لوگوهای مورد نیاز هم به‌عنوان تصویر مرجع به مدل داده شد.
 
 ### ۵. تولید ویدیو — [`05-video-generation/`](05-video-generation/)
 
@@ -231,7 +230,7 @@ All final outputs live in [`06-final-assets/`](06-final-assets/).
 | Production time | ~5 hours |
 | Production window | 21:30 – 02:30 |
 | Total cost | ~$17 |
-| Model access | Matis |
+| Model access | Some AI Router |
 | Editing | Shotcut |
 
 ---
@@ -270,7 +269,7 @@ Shotcut  →  Final Animation
 | Image generation | GPT Image 2 | Scene / keyframe generation |
 | Image-to-video | Kling AI 2.5 Turbo Pro | Animation |
 | Editing | Shotcut | Final edit |
-| Model access | Matis | Unified access to multiple models |
+| Model access | Some AI Router | Unified access to multiple models |
 
 ---
 
@@ -310,8 +309,8 @@ The event description was turned into a motivational song that can be mapped to 
 
 | File | What it is |
 |---|---|
-| [`style-prompt.md`](02-music-generation/01-claude-prompt.md) | Asking Claude for a Suno style prompt |
-| [`suno-prompt.md`](02-music-generation/02-suno-prompt.md) | Final lyrics + style prompt entered into Suno |
+| [`01-claude-prompt.md`](02-music-generation/01-claude-prompt.md) | Asking Claude for a Suno style prompt |
+| [`02-suno-prompt.md`](02-music-generation/02-suno-prompt.md) | Final lyrics + style prompt entered into Suno |
 
 Settings: **Suno V4.5 · Custom Mode · 105 BPM**. The final track is in [`06-final-assets/01- music/`](06-final-assets/01-music/).
 
@@ -324,7 +323,7 @@ Settings: **Suno V4.5 · Custom Mode · 105 BPM**. The final track is in [`06-fi
 
 ### 4. Image Generation — [`04-image-generation/`](04-image-generation/)
 
-One prompt per scene for **GPT Image 2**. Every prompt repeats the same character, location and style description to keep the boy, the house and the tree consistent across all 16 images. Scenes 07 and 08 also use the supplied Smart Banking Academy logo as a reference image.
+One prompt per scene for **GPT Image 2**. Every prompt repeats the same character, location and style description to keep the boy, the house and the tree consistent across all 16 images. Scenes 07 and 08 also use the supplied logos as a reference image.
 
 ### 5. Video Generation — [`05-video-generation/`](05-video-generation/)
 
@@ -403,4 +402,4 @@ Project concept / creative direction / editing: **Rouhollah Hatami Bahabadi**
 
 Event: **Algoritm Open Innovation**
 
-Tools: ChatGPT · Claude · Suno · GPT Image 2 · Kling 2.5 Turbo Pro · Shotcut · Matis
+Tools: ChatGPT · Claude · Suno · GPT Image 2 · Kling 2.5 Turbo Pro · Shotcut · Some AI Router
